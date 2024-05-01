@@ -1,0 +1,27 @@
+@import "../abstract/variables.scss";
+.navbar__buttons {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 40rem;
+  margin-top: 1.5rem;
+  font-weight: 400;
+}
+.navbar__buttons-login {
+  font-family: $fontmono;
+
+  background-color: white;
+  color: lightgray;
+  text-decoration: none;
+  border: 2px solid lightgray;
+  height: 2rem;
+  width: 8rem;
+}
+.navbar__buttons-register {
+  font-family: $fontmono;
+  background-color: green;
+  color: lightgray;
+  text-decoration: none;
+  border: 2px solid green;
+  height: 2rem;
+  width: 8rem;
+}

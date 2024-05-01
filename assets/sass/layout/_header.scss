@@ -1,0 +1,29 @@
+@import "../abstract/variables.scss";
+body {
+  font-family: $fontmono;
+}
+.navbar {
+  height: 12vh;
+  width:100%;
+  display: inline-block;
+  vertical-align: middle;  
+}
+.navbar__logo{
+  display: inline-block;
+  height: 50%;
+  vertical-align: middle;
+}
+#logo {
+  display: inline-block;
+  height: 50%;
+  vertical-align: middle;
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+}
+.nav-link {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+}
+

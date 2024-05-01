@@ -1,0 +1,17 @@
+/* MODELO EJEMPLO DEL MANIFIESTO main.scss */
+//abstracts
+@import "abstract/variables";
+//vendors
+//base
+@import "base/reset";
+@import "base/images";
+@import "base/typography";
+//layout
+@import "layout/header";
+@import "layout/main";
+
+//components
+@import "components/buttons";
+
+//pages
+//themes

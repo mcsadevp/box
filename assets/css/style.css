@@ -1,0 +1,246 @@
+/* MODELO EJEMPLO DEL MANIFIESTO main.scss */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: lightgray;
+}
+
+body {
+  font-family: "PT Mono", monospace;
+}
+
+.navbar {
+  height: 12vh;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar__logo {
+  display: inline-block;
+  height: 50%;
+  vertical-align: middle;
+}
+
+#logo {
+  display: inline-block;
+  height: 50%;
+  vertical-align: middle;
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+}
+
+.nav-link {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+}
+
+.hero-section {
+  display: inline-block;
+  width: 100%;
+  height: 55vh;
+}
+
+.hero-section__img--large {
+  display: inline-block;
+  width: 69%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.img-large {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.hero-section__text--large {
+  display: inline-block;
+  width: 25%;
+  background-color: white;
+  vertical-align: top;
+  height: 100%;
+  text-align: start;
+  margin-left: 2rem;
+}
+
+h1 {
+  padding-top: 3%;
+  font-size: 2.75rem;
+}
+
+h3 {
+  padding-top: 5%;
+  font-size: medium;
+}
+
+.stadistic {
+  margin: 2%;
+  width: 35%;
+  height: 6rem;
+  vertical-align: middle;
+  display: inline-block;
+  background-color: white;
+  position: relative;
+  left: 36.85rem;
+  bottom: 6rem;
+}
+
+.stadistic-card {
+  display: inline-block;
+  vertical-align: middle;
+  width: 7rem;
+  height: 2rem;
+}
+
+.stadistic__title {
+  width: 7rem;
+  height: 2rem;
+}
+
+.stadistic__text {
+  width: 7rem;
+  height: 2rem;
+}
+
+.square {
+  width: 5rem;
+  height: 5rem;
+  background-color: #F5E7A1;
+  position: relative;
+  left: 68rem;
+  bottom: 10rem;
+}
+
+.square__icon {
+  width: 5rem;
+  height: 5rem;
+  background-color: #E4572E;
+  position: relative;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+.fa-arrow-right {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  position: relative;
+  left: 1rem;
+  top: 1rem;
+}
+
+.section-bottoms {
+  height: 33vh;
+  position: relative;
+  bottom: 7.9rem;
+}
+
+.section-bottoms__text--medium {
+  display: inline-block;
+  width: 69%;
+  height: 100%;
+  vertical-align: middle;
+  padding-top: 2rem;
+  margin-left: 2rem;
+}
+
+.section-bottoms__img--medium {
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+  height: 100%;
+}
+
+.container-text {
+  width: 40%;
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.container-map {
+  width: 45%;
+  height: 100%;
+  vertical-align: top;
+  display: inline-block;
+  background-color: #3C91E6;
+  position: relative;
+  left: 9.3rem;
+  bottom: 2rem;
+}
+
+.container-grain {
+  width: 20%;
+  height: 50%;
+  transform: rotate(90deg);
+  vertical-align: top;
+  display: inline-block;
+  background-color: transparent;
+  position: relative;
+  left: 55rem;
+  bottom: 11rem;
+}
+
+.img-map {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: top;
+  position: relative;
+  right: 2rem;
+  top: 1rem;
+}
+
+.img-grain {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: top;
+  position: relative;
+}
+
+.img-medium {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+.navbar__buttons {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 40rem;
+  margin-top: 1.5rem;
+  font-weight: 400;
+}
+
+.navbar__buttons-login {
+  font-family: "PT Mono", monospace;
+  background-color: white;
+  color: lightgray;
+  text-decoration: none;
+  border: 2px solid lightgray;
+  height: 2rem;
+  width: 8rem;
+}
+
+.navbar__buttons-register {
+  font-family: "PT Mono", monospace;
+  background-color: green;
+  color: lightgray;
+  text-decoration: none;
+  border: 2px solid green;
+  height: 2rem;
+  width: 8rem;
+}
+
+/*# sourceMappingURL=style.css.map */
